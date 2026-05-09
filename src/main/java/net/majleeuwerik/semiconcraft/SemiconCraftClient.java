@@ -25,7 +25,6 @@ public class SemiconCraftClient {
     @SubscribeEvent
     static void onClientSetup(FMLClientSetupEvent event) {
         // Some client setup code
-        SemiconCraft.LOGGER.info("HELLO FROM CLIENT SETUP");
-        SemiconCraft.LOGGER.info("MINECRAFT NAME >> {}", Minecraft.getInstance().getUser().getName());
+        SemiconCraft.LOGGER.info("SemiconCraft Client Initialization");
     }
 }
