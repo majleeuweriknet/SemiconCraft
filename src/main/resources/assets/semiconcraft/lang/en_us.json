@@ -1,0 +1,13 @@
+{
+  "itemGroup.semiconcraft": "Example Mod Tab",
+  "block.semiconcraft.example_block": "Example Block",
+  "item.semiconcraft.example_item": "Example Item",
+
+  "semiconcraft.configuration.title": "SemiconCraft Configs",
+  "semiconcraft.configuration.section.semiconcraft.common.toml": "SemiconCraft Configs",
+  "semiconcraft.configuration.section.semiconcraft.common.toml.title": "SemiconCraft Configs",
+  "semiconcraft.configuration.items": "Item List",
+  "semiconcraft.configuration.logDirtBlock": "Log Dirt Block",
+  "semiconcraft.configuration.magicNumberIntroduction": "Magic Number Text",
+  "semiconcraft.configuration.magicNumber": "Magic Number"
+}
