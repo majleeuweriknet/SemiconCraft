@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5f7b501b-7bb3-43f0-b906-fba785b532ed" name="Changes" comment="NeoForge setup + run tools">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    <list default="true" id="5f7b501b-7bb3-43f0-b906-fba785b532ed" name="Changes" comment="Set-up NeoForge template and build tools">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,6 +58,9 @@
     &quot;accountId&quot;: &quot;d1d44e95-d6c9-4c62-aad4-1cc79380c978&quot;
   }
 }</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2,
   &quot;fromUser&quot;: false
@@ -139,7 +142,23 @@
       <option name="project" value="LOCAL" />
       <updated>1778327550455</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Set-up .gitignore">
+      <option name="closed" value="true" />
+      <created>1778328203724</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1778328203724</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Set-up NeoForge template and build tools">
+      <option name="closed" value="true" />
+      <created>1778328228140</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1778328228140</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -158,6 +177,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="NeoForge setup + run tools" />
-    <option name="LAST_COMMIT_MESSAGE" value="NeoForge setup + run tools" />
+    <MESSAGE value="Set-up .gitignore" />
+    <MESSAGE value="Set-up NeoForge template and build tools" />
+    <option name="LAST_COMMIT_MESSAGE" value="Set-up NeoForge template and build tools" />
   </component>
 </project>
