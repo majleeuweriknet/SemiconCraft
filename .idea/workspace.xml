@@ -4,7 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5f7b501b-7bb3-43f0-b906-fba785b532ed" name="Changes" comment="Updated gitignore" />
+    <list default="true" id="5f7b501b-7bb3-43f0-b906-fba785b532ed" name="Changes" comment="Change logging">
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/majleeuwerik/semiconcraft/registry/SCBlockEntities.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/majleeuwerik/semiconcraft/registry/SCBlocks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/majleeuwerik/semiconcraft/registry/SCItems.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/majleeuwerik/semiconcraft/registry/SCMenus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/majleeuwerik/semiconcraft/registry/SCRecipes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -40,6 +48,13 @@
       </state>
     </system>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -63,6 +78,9 @@
   &quot;fromUser&quot;: false
 }</component>
   <component name="ProjectId" id="3DUClZPp4X9F5FmeJADSn9Pjef1" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -78,7 +96,8 @@
     "codeWithMe.voiceChat.enabledByDefault": "false",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/marinusleeuwerik/Library/CloudStorage/OneDrive-MKP6/Projects/mc_mods/semiconcraft/semiconcraft-main"
+    "last_opened_file_path": "/Users/marinusleeuwerik/Library/CloudStorage/OneDrive-MKP6/Projects/mc_mods/semiconcraft/semiconcraft-main",
+    "settings.editor.selected.configurable": "configurable.group.editor"
   }
 }]]></component>
   <component name="RunManager" selected="Application.Client">
@@ -163,11 +182,22 @@
       <option name="project" value="LOCAL" />
       <updated>1778328601225</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Change logging">
+      <option name="closed" value="true" />
+      <created>1778329124296</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1778329124296</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="dependencySupport" implementationName="java:net.neoforged:neoforge" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -185,6 +215,7 @@
     <MESSAGE value="Set-up .gitignore" />
     <MESSAGE value="Set-up NeoForge template and build tools" />
     <MESSAGE value="Updated gitignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated gitignore" />
+    <MESSAGE value="Change logging" />
+    <option name="LAST_COMMIT_MESSAGE" value="Change logging" />
   </component>
 </project>

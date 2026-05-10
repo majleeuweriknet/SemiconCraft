@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "lithocraft:block/crystal_block"
+    }
+  }
+}
