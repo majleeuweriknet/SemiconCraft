@@ -25,6 +25,8 @@ public class SCCreativeModeTabs {
                     .withTabsAfter(Identifier.fromNamespaceAndPath(SemiconCraft.MODID, "semiconcraft_blocks_tab"))
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(SCItems.SILICON_CRYSTAL);
+                        output.accept(SCItems.SILICON_BOULE);
+                        output.accept(SCItems.SILICON_WAFER);
                         //output.accept(ModItems.RAW_AZURITE);
 
                         //output.accept(ModItems.METAL_DETECTOR);

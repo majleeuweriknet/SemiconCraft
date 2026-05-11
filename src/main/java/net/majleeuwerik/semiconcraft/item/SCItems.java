@@ -10,6 +10,8 @@ public class SCItems {
     public static final DeferredRegister.Items ITEMS = DeferredRegister.createItems(SemiconCraft.MODID);
 
     public static final DeferredItem<Item> SILICON_CRYSTAL = ITEMS.registerSimpleItem("silicon_crystal");
+    public static final DeferredItem<Item> SILICON_BOULE = ITEMS.registerSimpleItem("silicon_boule");
+    public static final DeferredItem<Item> SILICON_WAFER = ITEMS.registerSimpleItem("silicon_wafer");
 
     //public static final DeferredItem<Item> AZURITE = ITEMS.registerSimpleItem("azurite");
     //public static final DeferredItem<Item> RAW_AZURITE = ITEMS.registerSimpleItem("raw_azurite");

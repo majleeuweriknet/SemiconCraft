@@ -17,6 +17,8 @@ public class SCModelProvider extends ModelProvider {
     @Override
     protected void registerModels(BlockModelGenerators blockModels, ItemModelGenerators itemModels) {
         itemModels.generateFlatItem(SCItems.SILICON_CRYSTAL.get(), ModelTemplates.FLAT_ITEM);
+        itemModels.generateFlatItem(SCItems.SILICON_BOULE.get(), ModelTemplates.FLAT_ITEM);
+        itemModels.generateFlatItem(SCItems.SILICON_WAFER.get(), ModelTemplates.FLAT_ITEM);
         //itemModels.generateFlatItem(ModItems.RAW_AZURITE.get(), ModelTemplates.FLAT_ITEM);
         //itemModels.generateFlatItem(ModItems.METAL_DETECTOR.get(), ModelTemplates.FLAT_ITEM);
         //itemModels.generateFlatItem(ModItems.ONION.get(), ModelTemplates.FLAT_ITEM);
