@@ -25,6 +25,7 @@ public class SCModelProvider extends ModelProvider {
 
         /* BLOCKS */
         blockModels.createTrivialCube(SCBlocks.CRYSTAL_BLOCK.get());
+        blockModels.createTrivialCube(SCBlocks.CRYSTAL_ORE.get());
 //        blockModels.createTrivialCube(ModBlocks.RAW_AZURITE_BLOCK.get());
 //        blockModels.createTrivialCube(ModBlocks.AZURITE_ORE.get());
 //        blockModels.createTrivialCube(ModBlocks.AZURITE_DEEPSLATE_ORE.get());
