@@ -18,11 +18,11 @@ public class SCCreativeModeTabs {
     public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TABS =
             DeferredRegister.create(Registries.CREATIVE_MODE_TAB, SemiconCraft.MODID);
 
-    public static final Supplier<CreativeModeTab> AZURITE_ITEMS_TAB = CREATIVE_MODE_TABS.register("semiconcraft_items_tab",
+    public static final Supplier<CreativeModeTab> SEMICONCRAFT_ITEMS_TAB = CREATIVE_MODE_TABS.register("semiconcraft_items_tab",
             () -> CreativeModeTab.builder().icon(() -> new ItemStack(SCItems.SILICON_CRYSTAL.get()))
                     .title(Component.translatable("creativetab.semiconcraft.semiconcraft_items"))
                     .withTabsBefore(CreativeModeTabs.INGREDIENTS)
-                    .withTabsAfter(Identifier.fromNamespaceAndPath(SemiconCraft.MODID, "semiconcraft_items_tab"))
+                    .withTabsAfter(Identifier.fromNamespaceAndPath(SemiconCraft.MODID, "semiconcraft_blocks_tab"))
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(SCItems.SILICON_CRYSTAL);
                         //output.accept(ModItems.RAW_AZURITE);
@@ -32,7 +32,7 @@ public class SCCreativeModeTabs {
                         //output.accept(ModItems.END_FIRE_STARTER);
                     }).build());
 
-    public static final Supplier<CreativeModeTab> AZURITE_BLOCKS_TAB = CREATIVE_MODE_TABS.register("semiconcraft_blocks_tab",
+    public static final Supplier<CreativeModeTab> SEMICONCRAFT_BLOCKS_TAB = CREATIVE_MODE_TABS.register("semiconcraft_blocks_tab",
             () -> CreativeModeTab.builder().icon(() -> new ItemStack(SCBlocks.CRYSTAL_BLOCK.get()))
                     .title(Component.translatable("creativetab.semiconcraft.semiconcraft_blocks"))
                     .displayItems((itemDisplayParameters, output) -> {

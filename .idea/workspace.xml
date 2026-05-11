@@ -4,20 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5f7b501b-7bb3-43f0-b906-fba785b532ed" name="Changes" comment="Added datagen, pending restructure. atleast starts again">
+    <list default="true" id="5f7b501b-7bb3-43f0-b906-fba785b532ed" name="Changes" comment="Merge complete, build errors though">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/majleeuwerik/semiconcraft/SemiconCraft.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/majleeuwerik/semiconcraft/SemiconCraft.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/majleeuwerik/semiconcraft/block/SCBlocks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/majleeuwerik/semiconcraft/block/SCBlocks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/majleeuwerik/semiconcraft/content/item/SCCreativeModeTab.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/net/majleeuwerik/semiconcraft/creativemodetab/SCCreativeModeTabs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/majleeuwerik/semiconcraft/creativemodetab/SCCreativeModeTabs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/majleeuwerik/semiconcraft/datagen/SCModelProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/majleeuwerik/semiconcraft/datagen/SCModelProvider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/majleeuwerik/semiconcraft/item/SCItems.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/majleeuwerik/semiconcraft/item/SCItems.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/majleeuwerik/semiconcraft/registry/SCBlockEntities.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/majleeuwerik/semiconcraft/registry/SCBlocks.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/majleeuwerik/semiconcraft/registry/SCItems.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/majleeuwerik/semiconcraft/registry/SCMenus.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/majleeuwerik/semiconcraft/registry/SCRecipes.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/semiconcraft/lang/en_us.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/semiconcraft/lang/en_us.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -228,7 +217,15 @@
       <option name="project" value="LOCAL" />
       <updated>1778486567539</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Merge complete, build errors though">
+      <option name="closed" value="true" />
+      <created>1778490397548</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1778490397548</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -258,6 +255,7 @@
     <MESSAGE value="Fixed block/item registration. Broke textures and something with translation I think" />
     <MESSAGE value="Removed chisel" />
     <MESSAGE value="Added datagen, pending restructure. atleast starts again" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added datagen, pending restructure. atleast starts again" />
+    <MESSAGE value="Merge complete, build errors though" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge complete, build errors though" />
   </component>
 </project>
