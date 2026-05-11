@@ -4,32 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5f7b501b-7bb3-43f0-b906-fba785b532ed" name="Changes" comment="Import from previous work on lithocraft. Continuing from there.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/majleeuwerik/semiconcraft/content/item/SCCreativeModeTab.java" afterDir="false" />
+    <list default="true" id="5f7b501b-7bb3-43f0-b906-fba785b532ed" name="Changes" comment="Removed chisel">
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/majleeuwerik/semiconcraft/SCDataGen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/majleeuwerik/semiconcraft/block/SCBlocks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/majleeuwerik/semiconcraft/creativemodetab/SCCreativeModeTabs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/majleeuwerik/semiconcraft/datagen/SCBlockLootTableProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/majleeuwerik/semiconcraft/datagen/SCBlockTagsProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/majleeuwerik/semiconcraft/datagen/SCItemTagsProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/majleeuwerik/semiconcraft/datagen/SCModelProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/majleeuwerik/semiconcraft/datagen/SCRecipeProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/majleeuwerik/semiconcraft/item/SCItems.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/majleeuwerik/semiconcraft/tags/SCTags.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/majleeuwerik/semiconcraft/SemiconCraft.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/majleeuwerik/semiconcraft/SemiconCraft.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/majleeuwerik/semiconcraft/registry/SCBlocks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/majleeuwerik/semiconcraft/registry/SCBlocks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/majleeuwerik/semiconcraft/registry/SCItems.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/majleeuwerik/semiconcraft/registry/SCItems.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/semiconcraft/blockstates/crystal_block.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/semiconcraft/blockstates/crystal_block.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/semiconcraft/blockstates/crystal_ore.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/semiconcraft/blockstates/crystal_ore.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/semiconcraft/models/block/crystal_block.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/semiconcraft/models/block/crystal_block.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/semiconcraft/models/block/crystal_ore.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/semiconcraft/models/block/crystal_ore.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/semiconcraft/models/block/magic_block.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/semiconcraft/models/block/magic_block.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/semiconcraft/models/item/chisel.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/semiconcraft/models/item/chisel.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/semiconcraft/models/item/crystal_block.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/semiconcraft/models/item/crystal_block.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/semiconcraft/models/item/crystal_ore.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/semiconcraft/models/item/crystal_ore.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/semiconcraft/models/item/magic_block.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/semiconcraft/models/item/magic_block.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/semiconcraft/models/item/silicon_boule.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/semiconcraft/models/item/silicon_boule.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/semiconcraft/models/item/silicon_crystal.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/semiconcraft/models/item/silicon_crystal.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/semiconcraft/loot_table/blocks/crystal_block.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/semiconcraft/loot_table/blocks/crystal_block.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/semiconcraft/loot_table/blocks/crystal_ore.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/semiconcraft/loot_table/blocks/crystal_ore.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/semiconcraft/loot_table/blocks/magic_block.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/semiconcraft/loot_table/blocks/magic_block.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/semiconcraft/recipe/silicon_block.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/semiconcraft/recipe/silicon_block.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/semiconcraft/recipe/silicon_boule_from_blasting_silicon_crystal.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/semiconcraft/recipe/silicon_boule_from_blasting_silicon_crystal.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/semiconcraft/recipe/silicon_boule_from_smelting_silicon_crystal.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/semiconcraft/recipe/silicon_boule_from_smelting_silicon_crystal.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/semiconcraft/recipe/silicon_crystal.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/semiconcraft/recipe/silicon_crystal.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/semiconcraft/recipe/silicon_crystal_from_blasting_silicon_ore.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/semiconcraft/recipe/silicon_crystal_from_blasting_silicon_ore.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/semiconcraft/recipe/silicon_crystal_from_smelting_silicon_ore.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/semiconcraft/recipe/silicon_crystal_from_smelting_silicon_ore.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/semiconcraft/lang/en_us.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/semiconcraft/lang/en_us.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -216,7 +203,23 @@
       <option name="project" value="LOCAL" />
       <updated>1778429257196</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Fixed block/item registration. Broke textures and something with translation I think">
+      <option name="closed" value="true" />
+      <created>1778482668051</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1778482668051</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Removed chisel">
+      <option name="closed" value="true" />
+      <created>1778483077245</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1778483077245</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -243,6 +246,8 @@
     <MESSAGE value="Updated gitignore" />
     <MESSAGE value="Change logging" />
     <MESSAGE value="Import from previous work on lithocraft. Continuing from there." />
-    <option name="LAST_COMMIT_MESSAGE" value="Import from previous work on lithocraft. Continuing from there." />
+    <MESSAGE value="Fixed block/item registration. Broke textures and something with translation I think" />
+    <MESSAGE value="Removed chisel" />
+    <option name="LAST_COMMIT_MESSAGE" value="Removed chisel" />
   </component>
 </project>

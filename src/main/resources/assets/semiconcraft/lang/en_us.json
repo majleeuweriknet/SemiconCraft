@@ -9,5 +9,10 @@
   "semiconcraft.configuration.items": "Item List",
   "semiconcraft.configuration.logDirtBlock": "Log Dirt Block",
   "semiconcraft.configuration.magicNumberIntroduction": "Magic Number Text",
-  "semiconcraft.configuration.magicNumber": "Magic Number"
+  "semiconcraft.configuration.magicNumber": "Magic Number",
+
+  "block.semiconcraft.crystal_block": "Crystal Block",
+
+  "creativetab.semiconcraft.semiconcraft_blocks": "SemiconCraft Blocks",
+  "creativetab.semiconcraft.semiconcraft_items": "SemiconCraft Items"
 }
