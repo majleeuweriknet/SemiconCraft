@@ -4,14 +4,32 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5f7b501b-7bb3-43f0-b906-fba785b532ed" name="Changes" comment="Change logging">
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/majleeuwerik/semiconcraft/registry/SCBlockEntities.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/majleeuwerik/semiconcraft/registry/SCBlocks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/majleeuwerik/semiconcraft/registry/SCItems.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/majleeuwerik/semiconcraft/registry/SCMenus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/majleeuwerik/semiconcraft/registry/SCRecipes.java" afterDir="false" />
+    <list default="true" id="5f7b501b-7bb3-43f0-b906-fba785b532ed" name="Changes" comment="Import from previous work on lithocraft. Continuing from there.">
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/majleeuwerik/semiconcraft/content/item/SCCreativeModeTab.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/majleeuwerik/semiconcraft/SemiconCraft.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/majleeuwerik/semiconcraft/SemiconCraft.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/majleeuwerik/semiconcraft/registry/SCBlocks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/majleeuwerik/semiconcraft/registry/SCBlocks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/majleeuwerik/semiconcraft/registry/SCItems.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/majleeuwerik/semiconcraft/registry/SCItems.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/semiconcraft/blockstates/crystal_block.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/semiconcraft/blockstates/crystal_block.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/semiconcraft/blockstates/crystal_ore.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/semiconcraft/blockstates/crystal_ore.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/semiconcraft/models/block/crystal_block.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/semiconcraft/models/block/crystal_block.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/semiconcraft/models/block/crystal_ore.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/semiconcraft/models/block/crystal_ore.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/semiconcraft/models/block/magic_block.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/semiconcraft/models/block/magic_block.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/semiconcraft/models/item/chisel.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/semiconcraft/models/item/chisel.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/semiconcraft/models/item/crystal_block.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/semiconcraft/models/item/crystal_block.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/semiconcraft/models/item/crystal_ore.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/semiconcraft/models/item/crystal_ore.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/semiconcraft/models/item/magic_block.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/semiconcraft/models/item/magic_block.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/semiconcraft/models/item/silicon_boule.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/semiconcraft/models/item/silicon_boule.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/semiconcraft/models/item/silicon_crystal.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/semiconcraft/models/item/silicon_crystal.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/semiconcraft/loot_table/blocks/crystal_block.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/semiconcraft/loot_table/blocks/crystal_block.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/semiconcraft/loot_table/blocks/crystal_ore.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/semiconcraft/loot_table/blocks/crystal_ore.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/semiconcraft/loot_table/blocks/magic_block.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/semiconcraft/loot_table/blocks/magic_block.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/semiconcraft/recipe/silicon_block.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/semiconcraft/recipe/silicon_block.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/semiconcraft/recipe/silicon_boule_from_blasting_silicon_crystal.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/semiconcraft/recipe/silicon_boule_from_blasting_silicon_crystal.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/semiconcraft/recipe/silicon_boule_from_smelting_silicon_crystal.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/semiconcraft/recipe/silicon_boule_from_smelting_silicon_crystal.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/semiconcraft/recipe/silicon_crystal.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/semiconcraft/recipe/silicon_crystal.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/semiconcraft/recipe/silicon_crystal_from_blasting_silicon_ore.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/semiconcraft/recipe/silicon_crystal_from_blasting_silicon_ore.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/semiconcraft/recipe/silicon_crystal_from_smelting_silicon_ore.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/semiconcraft/recipe/silicon_crystal_from_smelting_silicon_ore.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -190,7 +208,15 @@
       <option name="project" value="LOCAL" />
       <updated>1778329124296</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Import from previous work on lithocraft. Continuing from there.">
+      <option name="closed" value="true" />
+      <created>1778429257196</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1778429257196</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -216,6 +242,7 @@
     <MESSAGE value="Set-up NeoForge template and build tools" />
     <MESSAGE value="Updated gitignore" />
     <MESSAGE value="Change logging" />
-    <option name="LAST_COMMIT_MESSAGE" value="Change logging" />
+    <MESSAGE value="Import from previous work on lithocraft. Continuing from there." />
+    <option name="LAST_COMMIT_MESSAGE" value="Import from previous work on lithocraft. Continuing from there." />
   </component>
 </project>

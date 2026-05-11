@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "lithocraft:block/crystal_ore"
+      "model": "semiconcraft:block/crystal_ore"
     }
   }
 }

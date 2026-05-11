@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "lithocraft:item/silicon_crystal"
+    "layer0": "semiconcraft:item/silicon_crystal"
   }
 }

@@ -11,11 +11,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "lithocraft:magic_block"
+          "name": "semiconcraft:magic_block"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "lithocraft:blocks/magic_block"
+  "random_sequence": "semiconcraft:blocks/magic_block"
 }

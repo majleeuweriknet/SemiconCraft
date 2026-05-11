@@ -11,11 +11,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "lithocraft:crystal_block"
+          "name": "semiconcraft:crystal_block"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "lithocraft:blocks/crystal_block"
+  "random_sequence": "semiconcraft:blocks/crystal_block"
 }

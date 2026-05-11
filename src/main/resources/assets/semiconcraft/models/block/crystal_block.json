@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/cube_all",
   "textures": {
-    "all": "lithocraft:block/crystal_block"
+    "all": "semiconcraft:block/crystal_block"
   }
 }

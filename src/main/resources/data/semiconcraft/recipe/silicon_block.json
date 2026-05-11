@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "C": { "item": "lithocraft:silicon_crystal" }
+    "C": { "item": "semiconcraft:silicon_crystal" }
   },
   "pattern": [
     "CCC",
@@ -10,7 +10,7 @@
     "CCC"
   ],
   "result": {
-    "id": "lithocraft:crystal_block",
+    "id": "semiconcraft:crystal_block",
     "count": 1
   }
 }

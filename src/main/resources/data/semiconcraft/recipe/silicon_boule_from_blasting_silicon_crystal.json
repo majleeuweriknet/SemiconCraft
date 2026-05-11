@@ -5,10 +5,10 @@
   "experience": 0.25,
   "group": "crystal",
   "ingredient": {
-    "item": "lithocraft:silicon_crystal"
+    "item": "semiconcraft:silicon_crystal"
   },
   "result": {
     "count": 1,
-    "id": "lithocraft:silicon_boule"
+    "id": "semiconcraft:silicon_boule"
   }
 }
