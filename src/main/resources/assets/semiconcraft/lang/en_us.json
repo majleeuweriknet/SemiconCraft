@@ -12,6 +12,8 @@
   "semiconcraft.configuration.magicNumber": "Magic Number",
 
   "block.semiconcraft.crystal_block": "Crystal Block",
+  "block.semiconcraft.crystal_ore": "Crystal Ore",
+  "item.semiconcraft.silicon_crystal": "Silicon Crystal",
 
   "creativetab.semiconcraft.semiconcraft_blocks": "SemiconCraft Blocks",
   "creativetab.semiconcraft.semiconcraft_items": "SemiconCraft Items"

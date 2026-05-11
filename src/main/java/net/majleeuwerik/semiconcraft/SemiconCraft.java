@@ -1,8 +1,8 @@
 package net.majleeuwerik.semiconcraft;
 
-import net.majleeuwerik.semiconcraft.content.item.SCCreativeModeTab;
-import net.majleeuwerik.semiconcraft.registry.SCBlocks;
-import net.majleeuwerik.semiconcraft.registry.SCItems;
+import net.majleeuwerik.semiconcraft.block.SCBlocks;
+import net.majleeuwerik.semiconcraft.creativemodetab.SCCreativeModeTabs;
+import net.majleeuwerik.semiconcraft.item.SCItems;
 import org.slf4j.Logger;
 
 import com.mojang.logging.LogUtils;
@@ -48,6 +48,10 @@ public class SemiconCraft {
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
 
+        SCCreativeModeTabs.register(modEventBus);
+
+        SCItems.register(modEventBus);
+        SCBlocks.register(modEventBus);
 
         // Register ourselves for server and other game events we are interested in.
         // Note that this is necessary if and only if we want *this* class (SemiconCraft) to respond directly to events.
@@ -57,15 +61,11 @@ public class SemiconCraft {
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
 
-        SCCreativeModeTab.register(modEventBus);
-
-        SCItems.register(modEventBus);
-        SCBlocks.register(modEventBus);
-
-
 
         // Register our mod's ModConfigSpec so that FML can create and load the config file for us
         modContainer.registerConfig(ModConfig.Type.COMMON, Config.SPEC);
+
+
     }
 
     private void commonSetup(FMLCommonSetupEvent event) {
@@ -84,11 +84,11 @@ public class SemiconCraft {
     // Add the example block item to the building blocks tab
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
-            event.accept(SCItems.SILICON_BOULE);
-            //event.accept(SCItems.SILICON_CRYSTAL);
+            //event.accept(SCItems.SILICON_BOULE);
+            event.accept(SCItems.SILICON_CRYSTAL);
         }
         if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
-            //event.accept(SCBlocks.CRYSTAL_ORE);
+            event.accept(SCBlocks.CRYSTAL_ORE);
             event.accept(SCBlocks.CRYSTAL_BLOCK);
         }
     }

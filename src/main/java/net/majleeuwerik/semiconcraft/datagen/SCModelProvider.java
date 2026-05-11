@@ -1,8 +1,8 @@
 package net.majleeuwerik.semiconcraft.datagen;
 
 import net.majleeuwerik.semiconcraft.SemiconCraft;
-import net.majleeuwerik.semiconcraft.registry.SCBlocks;
-import net.majleeuwerik.semiconcraft.registry.SCItems;
+import net.majleeuwerik.semiconcraft.block.SCBlocks;
+import net.majleeuwerik.semiconcraft.item.SCItems;
 import net.minecraft.client.data.models.BlockModelGenerators;
 import net.minecraft.client.data.models.ItemModelGenerators;
 import net.minecraft.client.data.models.ModelProvider;
@@ -16,7 +16,7 @@ public class SCModelProvider extends ModelProvider {
 
     @Override
     protected void registerModels(BlockModelGenerators blockModels, ItemModelGenerators itemModels) {
-        itemModels.generateFlatItem(SCItems.SILICON_BOULE.get(), ModelTemplates.FLAT_ITEM);
+        itemModels.generateFlatItem(SCItems.SILICON_CRYSTAL.get(), ModelTemplates.FLAT_ITEM);
         //itemModels.generateFlatItem(ModItems.RAW_AZURITE.get(), ModelTemplates.FLAT_ITEM);
         //itemModels.generateFlatItem(ModItems.METAL_DETECTOR.get(), ModelTemplates.FLAT_ITEM);
         //itemModels.generateFlatItem(ModItems.ONION.get(), ModelTemplates.FLAT_ITEM);

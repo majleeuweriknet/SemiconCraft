@@ -9,6 +9,7 @@ import net.neoforged.neoforge.registries.DeferredRegister;
 public class SCItems {
     public static final DeferredRegister.Items ITEMS = DeferredRegister.createItems(SemiconCraft.MODID);
 
+    public static final DeferredItem<Item> SILICON_CRYSTAL = ITEMS.registerSimpleItem("silicon_crystal");
 
     //public static final DeferredItem<Item> AZURITE = ITEMS.registerSimpleItem("azurite");
     //public static final DeferredItem<Item> RAW_AZURITE = ITEMS.registerSimpleItem("raw_azurite");
