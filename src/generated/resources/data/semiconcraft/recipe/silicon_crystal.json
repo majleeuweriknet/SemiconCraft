@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "silicon",
+  "ingredients": [
+    "semiconcraft:crystal_block"
+  ],
+  "result": {
+    "count": 9,
+    "id": "semiconcraft:silicon_crystal"
+  }
+}
