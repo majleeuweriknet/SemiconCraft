@@ -16,6 +16,17 @@ public class SCItems {
     public static final DeferredItem<Item> SILICON_DUST = ITEMS.registerSimpleItem("silicon_dust");
     public static final DeferredItem<Item> SILICON_RAW = ITEMS.registerSimpleItem("silicon_raw");
 
+    // Wafers
+    public static final DeferredItem<Item> WAFER_CRUDE_DIRTY = ITEMS.registerSimpleItem("wafer_crude_dirty");
+    public static final DeferredItem<Item> WAFER_CRUDE_CLEAN = ITEMS.registerSimpleItem("wafer_crude_clean");
+    public static final DeferredItem<Item> WAFER_CRUDE_DEPOSITED = ITEMS.registerSimpleItem("wafer_crude_deposited");
+    public static final DeferredItem<Item> WAFER_CRUDE_COATED = ITEMS.registerSimpleItem("wafer_crude_coated");
+    public static final DeferredItem<Item> WAFER_CRUDE_EXPOSED = ITEMS.registerSimpleItem("wafer_crude_exposed");
+    public static final DeferredItem<Item> WAFER_CRUDE_DEVELOPED = ITEMS.registerSimpleItem("wafer_crude_developed");
+    public static final DeferredItem<Item> WAFER_CRUDE_ETCHED = ITEMS.registerSimpleItem("wafer_crude_etched");
+    public static final DeferredItem<Item> WAFER_CRUDE_ENRICHED = ITEMS.registerSimpleItem("wafer_crude_enriched");
+    public static final DeferredItem<Item> WAFER_CRUDE_PROCESSED = ITEMS.registerSimpleItem("wafer_crude_processed");
+
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
     }

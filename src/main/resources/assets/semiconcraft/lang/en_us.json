@@ -16,6 +16,20 @@
   "item.semiconcraft.silicon_raw": "Raw Silicon",
   "item.semiconcraft.silicon_dust": "Silicon Dust",
 
+  "item.semiconcraft.wafer_crude_dirty": "Dirty Crude Wafer",
+  "item.semiconcraft.wafer_crude_clean": "Clean Crude Wafer",
+  "item.semiconcraft.wafer_crude_deposited" : "Deposited Crude Wafer",
+  "item.semiconcraft.wafer_crude_coated": "Coated Crude Wafer",
+  "item.semiconcraft.wafer_crude_exposed": "Exposed Crude Wafer",
+  "item.semiconcraft.wafer_crude_developed": "Developed Crude Wafer",
+  "item.semiconcraft.wafer_crude_etched": "Etched Crude Wafer",
+  "item.semiconcraft.wafer_crude_enriched" : "Enriched Crude Wafer",
+  "item.semiconcraft.wafer_crude_processed" : "Processed Crude Wafer",
+
+  "item.semiconcraft.die_basic" : "Basic Die",
+  "item.semiconcraft.ic_basic": "Basic Integrated Circuit",
+
   "creativetab.semiconcraft.semiconcraft_blocks": "SemiconCraft Blocks",
-  "creativetab.semiconcraft.semiconcraft_items": "SemiconCraft Items"
+  "creativetab.semiconcraft.semiconcraft_items": "SemiconCraft Items",
+  "creativetab.semiconcraft.semiconcraft_wafers": "SemiconCraft Wafers"
 }

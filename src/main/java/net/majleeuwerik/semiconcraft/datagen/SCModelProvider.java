@@ -22,6 +22,17 @@ public class SCModelProvider extends ModelProvider {
         itemModels.generateFlatItem(SCItems.SILICON_DUST.get(), ModelTemplates.FLAT_ITEM);
         itemModels.generateFlatItem(SCItems.SILICON_RAW.get(), ModelTemplates.FLAT_ITEM);
 
+        // Wafers
+        itemModels.generateFlatItem(SCItems.WAFER_CRUDE_DIRTY.get(), ModelTemplates.FLAT_ITEM);
+        itemModels.generateFlatItem(SCItems.WAFER_CRUDE_CLEAN.get(), ModelTemplates.FLAT_ITEM);
+        itemModels.generateFlatItem(SCItems.WAFER_CRUDE_DEPOSITED.get(), ModelTemplates.FLAT_ITEM);
+        itemModels.generateFlatItem(SCItems.WAFER_CRUDE_COATED.get(), ModelTemplates.FLAT_ITEM);
+        itemModels.generateFlatItem(SCItems.WAFER_CRUDE_EXPOSED.get(), ModelTemplates.FLAT_ITEM);
+        itemModels.generateFlatItem(SCItems.WAFER_CRUDE_DEVELOPED.get(), ModelTemplates.FLAT_ITEM);
+        itemModels.generateFlatItem(SCItems.WAFER_CRUDE_ETCHED.get(), ModelTemplates.FLAT_ITEM);
+        itemModels.generateFlatItem(SCItems.WAFER_CRUDE_ENRICHED.get(), ModelTemplates.FLAT_ITEM);
+        itemModels.generateFlatItem(SCItems.WAFER_CRUDE_PROCESSED.get(), ModelTemplates.FLAT_ITEM);
+
         /* BLOCKS */
         blockModels.createTrivialCube(SCBlocks.CRYSTAL_BLOCK.get());
         blockModels.createTrivialCube(SCBlocks.CRYSTAL_ORE.get());

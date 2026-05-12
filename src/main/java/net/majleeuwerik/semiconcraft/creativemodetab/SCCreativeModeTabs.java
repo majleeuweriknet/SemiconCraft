@@ -39,6 +39,23 @@ public class SCCreativeModeTabs {
                         output.accept(SCBlocks.CRYSTAL_BLOCK);
                     }).build());
 
+    public static final Supplier<CreativeModeTab> SEMICONCRAFT_WAFERS_TAB = CREATIVE_MODE_TABS.register("semiconcraft_wafers_tab",
+            () -> CreativeModeTab.builder().icon(() -> new ItemStack(SCItems.WAFER_CRUDE_PROCESSED.get()))
+                    .title(Component.translatable("creativetab.semiconcraft.semiconcraft_wafers"))
+                    .withTabsBefore(Identifier.fromNamespaceAndPath(SemiconCraft.MODID, "semiconcraft_blocks_tab"))
+                    .displayItems((itemDisplayParameters, output) -> {
+                        output.accept(SCItems.WAFER_CRUDE_DIRTY);
+                        output.accept(SCItems.WAFER_CRUDE_CLEAN);
+                        output.accept(SCItems.WAFER_CRUDE_DEPOSITED);
+                        output.accept(SCItems.WAFER_CRUDE_COATED);
+                        output.accept(SCItems.WAFER_CRUDE_EXPOSED);
+                        output.accept(SCItems.WAFER_CRUDE_DEVELOPED);
+                        output.accept(SCItems.WAFER_CRUDE_ETCHED);
+                        output.accept(SCItems.WAFER_CRUDE_ENRICHED);
+                        output.accept(SCItems.WAFER_CRUDE_PROCESSED);
+                    }).build());
+
+
     public static void register(IEventBus eventBus) {
         CREATIVE_MODE_TABS.register(eventBus);
     }
