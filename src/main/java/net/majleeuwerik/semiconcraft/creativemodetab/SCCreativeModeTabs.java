@@ -27,11 +27,6 @@ public class SCCreativeModeTabs {
                         output.accept(SCItems.SILICON_CRYSTAL);
                         output.accept(SCItems.SILICON_BOULE);
                         output.accept(SCItems.SILICON_WAFER);
-                        //output.accept(ModItems.RAW_AZURITE);
-
-                        //output.accept(ModItems.METAL_DETECTOR);
-                        //output.accept(ModItems.ONION);
-                        //output.accept(ModItems.END_FIRE_STARTER);
                     }).build());
 
     public static final Supplier<CreativeModeTab> SEMICONCRAFT_BLOCKS_TAB = CREATIVE_MODE_TABS.register("semiconcraft_blocks_tab",

@@ -4,16 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5f7b501b-7bb3-43f0-b906-fba785b532ed" name="Changes" comment="Fixed data generation and added silicon block">
+    <list default="true" id="5f7b501b-7bb3-43f0-b906-fba785b532ed" name="Changes" comment="Updated readme. &#10;Added item: silicon boule&#10;Added item: silicon_wafer&#10;Changed block: texture of silicon_ore">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/generated/resources/.cache/633cdbe431757ffe9258a0cbd8d9045692da8418" beforeDir="false" afterPath="$PROJECT_DIR$/src/generated/resources/.cache/633cdbe431757ffe9258a0cbd8d9045692da8418" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/net/majleeuwerik/semiconcraft/creativemodetab/SCCreativeModeTabs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/majleeuwerik/semiconcraft/creativemodetab/SCCreativeModeTabs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/majleeuwerik/semiconcraft/datagen/SCModelProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/majleeuwerik/semiconcraft/datagen/SCModelProvider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/majleeuwerik/semiconcraft/item/SCItems.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/majleeuwerik/semiconcraft/item/SCItems.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/semiconcraft/lang/en_us.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/semiconcraft/lang/en_us.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/semiconcraft/textures/block/crystal_block.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/semiconcraft/textures/block/crystal_block.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/assets/semiconcraft/textures/block/crystal_ore.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/semiconcraft/textures/block/crystal_ore.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/semiconcraft/textures/item/silicon_boule.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/semiconcraft/textures/item/silicon_boule.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/semiconcraft/textures/item/chisel.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/assets/semiconcraft/textures/item/silicon_crystal.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/semiconcraft/textures/item/silicon_crystal.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,6 +39,11 @@
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="semiconcraft-main" type="f1a62948:ProjectNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="semiconcraft-main" type="f1a62948:ProjectNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
               </path>
             </expand>
             <select />
@@ -92,6 +93,7 @@
   "keyToString": {
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Gradle.semiconcraft-main [:net.neoforged.devlaunch.Main.main()].executor": "Run",
+    "Gradle.semiconcraft-main [javadoc].executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -144,6 +146,36 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="semiconcraft-main [javadoc]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="javadoc" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <ExternalSystemDebugDisabled>false</ExternalSystemDebugDisabled>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <GradleProfilingDisabled>false</GradleProfilingDisabled>
+      <GradleCoverageDisabled>false</GradleCoverageDisabled>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.semiconcraft-main [javadoc]" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -257,7 +289,23 @@
       <option name="project" value="LOCAL" />
       <updated>1778492770656</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Updated readme. &#10;Added item: silicon boule&#10;Added item: silicon_wafer">
+      <option name="closed" value="true" />
+      <created>1778528245579</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1778528245579</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Updated readme. &#10;Added item: silicon boule&#10;Added item: silicon_wafer&#10;Changed block: texture of silicon_ore">
+      <option name="closed" value="true" />
+      <created>1778528278446</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1778528278446</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -291,6 +339,8 @@
     <MESSAGE value="Creative tabs work, textures don't" />
     <MESSAGE value="Fixed data gen." />
     <MESSAGE value="Fixed data generation and added silicon block" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed data generation and added silicon block" />
+    <MESSAGE value="Updated readme. &#10;Added item: silicon boule&#10;Added item: silicon_wafer" />
+    <MESSAGE value="Updated readme. &#10;Added item: silicon boule&#10;Added item: silicon_wafer&#10;Changed block: texture of silicon_ore" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated readme. &#10;Added item: silicon boule&#10;Added item: silicon_wafer&#10;Changed block: texture of silicon_ore" />
   </component>
 </project>
