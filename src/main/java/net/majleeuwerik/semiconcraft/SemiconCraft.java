@@ -59,7 +59,7 @@ public class SemiconCraft {
         NeoForge.EVENT_BUS.register(this);
 
         // Register the item to a creative tab
-        modEventBus.addListener(this::addCreative);
+        //modEventBus.addListener(this::addCreative);
 
 
         // Register our mod's ModConfigSpec so that FML can create and load the config file for us
@@ -81,17 +81,18 @@ public class SemiconCraft {
         Config.ITEM_STRINGS.get().forEach((item) -> LOGGER.info("ITEM >> {}", item));
     }
 
+    /*
     // Add the example block item to the building blocks tab
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
             //event.accept(SCItems.SILICON_BOULE);
-            event.accept(SCItems.SILICON_CRYSTAL);
+            //event.accept(SCItems.SILICON_CRYSTAL);
         }
         if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
-            event.accept(SCBlocks.CRYSTAL_ORE);
-            event.accept(SCBlocks.CRYSTAL_BLOCK);
+            //event.accept(SCBlocks.CRYSTAL_ORE);
+            //event.accept(SCBlocks.CRYSTAL_BLOCK);
         }
-    }
+    }*/
 
     // You can use SubscribeEvent and let the Event Bus discover methods to call
     @SubscribeEvent

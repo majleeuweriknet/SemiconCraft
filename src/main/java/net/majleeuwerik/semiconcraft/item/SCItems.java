@@ -13,11 +13,8 @@ public class SCItems {
     public static final DeferredItem<Item> SILICON_BOULE = ITEMS.registerSimpleItem("silicon_boule");
     public static final DeferredItem<Item> SILICON_WAFER = ITEMS.registerSimpleItem("silicon_wafer");
 
-    //public static final DeferredItem<Item> AZURITE = ITEMS.registerSimpleItem("azurite");
-    //public static final DeferredItem<Item> RAW_AZURITE = ITEMS.registerSimpleItem("raw_azurite");
-
-    //public static final DeferredItem<Item> END_FIRE_STARTER = ITEMS.registerItem("end_fire_starter",
-    //        properties -> new Item(properties.stacksTo(32)));
+    public static final DeferredItem<Item> SILICON_DUST = ITEMS.registerSimpleItem("silicon_dust");
+    public static final DeferredItem<Item> SILICON_RAW = ITEMS.registerSimpleItem("silicon_raw");
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

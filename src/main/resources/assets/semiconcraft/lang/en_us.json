@@ -1,8 +1,4 @@
 {
-  "itemGroup.semiconcraft": "Example Mod Tab",
-  "block.semiconcraft.example_block": "Example Block",
-  "item.semiconcraft.example_item": "Example Item",
-
   "semiconcraft.configuration.title": "SemiconCraft Configs",
   "semiconcraft.configuration.section.semiconcraft.common.toml": "SemiconCraft Configs",
   "semiconcraft.configuration.section.semiconcraft.common.toml.title": "SemiconCraft Configs",
@@ -13,9 +9,12 @@
 
   "block.semiconcraft.crystal_block": "Crystal Block",
   "block.semiconcraft.crystal_ore": "Crystal Ore",
+
   "item.semiconcraft.silicon_crystal": "Silicon Crystal",
   "item.semiconcraft.silicon_wafer": "Silicon Wafer",
   "item.semiconcraft.silicon_boule": "Silicon Boule",
+  "item.semiconcraft.silicon_raw": "Raw Silicon",
+  "item.semiconcraft.silicon_dust": "Silicon Dust",
 
   "creativetab.semiconcraft.semiconcraft_blocks": "SemiconCraft Blocks",
   "creativetab.semiconcraft.semiconcraft_items": "SemiconCraft Items"
