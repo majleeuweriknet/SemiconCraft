@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5f7b501b-7bb3-43f0-b906-fba785b532ed" name="Changes" comment="Added block drops (crystal block, silicon ore)&#10;Added crafting recipes (silicon block and reverse">
+    <list default="true" id="5f7b501b-7bb3-43f0-b906-fba785b532ed" name="Changes" comment="Added Basic Die &amp; Basic IC items">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/majleeuwerik/semiconcraft/creativemodetab/SCCreativeModeTabs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/majleeuwerik/semiconcraft/creativemodetab/SCCreativeModeTabs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/majleeuwerik/semiconcraft/datagen/SCModelProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/majleeuwerik/semiconcraft/datagen/SCModelProvider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/majleeuwerik/semiconcraft/item/SCItems.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/majleeuwerik/semiconcraft/item/SCItems.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/generated/resources/.cache/e5bca830d6745a152ebd322c3426bd142ff1712b" beforeDir="false" afterPath="$PROJECT_DIR$/src/generated/resources/.cache/e5bca830d6745a152ebd322c3426bd142ff1712b" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/majleeuwerik/semiconcraft/datagen/SCRecipeProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/majleeuwerik/semiconcraft/datagen/SCRecipeProvider.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -335,7 +334,15 @@
       <option name="project" value="LOCAL" />
       <updated>1778607259515</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Added Basic Die &amp; Basic IC items">
+      <option name="closed" value="true" />
+      <created>1778753897027</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1778753897027</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -375,6 +382,7 @@
     <MESSAGE value="Added item: Raw Silicon &amp; Silicon Dust" />
     <MESSAGE value="Added the various Crude Wafer type items." />
     <MESSAGE value="Added block drops (crystal block, silicon ore)&#10;Added crafting recipes (silicon block and reverse" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added block drops (crystal block, silicon ore)&#10;Added crafting recipes (silicon block and reverse" />
+    <MESSAGE value="Added Basic Die &amp; Basic IC items" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Basic Die &amp; Basic IC items" />
   </component>
 </project>
