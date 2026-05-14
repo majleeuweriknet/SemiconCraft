@@ -53,6 +53,9 @@ public class SCCreativeModeTabs {
                         output.accept(SCItems.WAFER_CRUDE_ETCHED);
                         output.accept(SCItems.WAFER_CRUDE_ENRICHED);
                         output.accept(SCItems.WAFER_CRUDE_PROCESSED);
+
+                        output.accept(SCItems.DIE_BASIC);
+                        output.accept(SCItems.IC_BASIC);
                     }).build());
 
 

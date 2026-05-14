@@ -33,6 +33,10 @@ public class SCModelProvider extends ModelProvider {
         itemModels.generateFlatItem(SCItems.WAFER_CRUDE_ENRICHED.get(), ModelTemplates.FLAT_ITEM);
         itemModels.generateFlatItem(SCItems.WAFER_CRUDE_PROCESSED.get(), ModelTemplates.FLAT_ITEM);
 
+        // Dies & ICs
+        itemModels.generateFlatItem(SCItems.DIE_BASIC.get(), ModelTemplates.FLAT_ITEM);
+        itemModels.generateFlatItem(SCItems.IC_BASIC.get(), ModelTemplates.FLAT_ITEM);
+
         /* BLOCKS */
         blockModels.createTrivialCube(SCBlocks.CRYSTAL_BLOCK.get());
         blockModels.createTrivialCube(SCBlocks.CRYSTAL_ORE.get());

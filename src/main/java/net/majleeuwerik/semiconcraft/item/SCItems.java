@@ -27,6 +27,10 @@ public class SCItems {
     public static final DeferredItem<Item> WAFER_CRUDE_ENRICHED = ITEMS.registerSimpleItem("wafer_crude_enriched");
     public static final DeferredItem<Item> WAFER_CRUDE_PROCESSED = ITEMS.registerSimpleItem("wafer_crude_processed");
 
+    // ICs and Dies
+    public static final DeferredItem<Item> DIE_BASIC = ITEMS.registerSimpleItem("die_basic");
+    public static final DeferredItem<Item> IC_BASIC = ITEMS.registerSimpleItem("ic_basic");
+
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
     }

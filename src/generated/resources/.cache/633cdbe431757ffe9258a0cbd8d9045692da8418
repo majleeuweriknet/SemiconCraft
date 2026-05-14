@@ -1,8 +1,10 @@
-// 26.1	2026-05-12T16:09:01.647585	Model Definitions - semiconcraft
+// 26.1	2026-05-14T12:15:12.380971	Model Definitions - semiconcraft
 962116cd3e34ba3af69ba115a907d0613c850506 assets/semiconcraft/blockstates/crystal_block.json
 03e364e30251e3dfb9ded8b7360a3b772bfd615a assets/semiconcraft/blockstates/crystal_ore.json
 5477bf8456fb1ee2a13528f9a08c4477f6b57be3 assets/semiconcraft/items/crystal_block.json
 34fc81e5c95747564c615ec3252cd82f8041c5b2 assets/semiconcraft/items/crystal_ore.json
+891906cba12bcc87435f2e2b909c686b08d90af7 assets/semiconcraft/items/die_basic.json
+cc9548e2eb8785b6c28f60e54a281e6237071452 assets/semiconcraft/items/ic_basic.json
 81a94bce4964bbc94370dc0b9285fe5bea1a01b3 assets/semiconcraft/items/silicon_boule.json
 d78998b57282a46172c43140a593bf88bc34e2b7 assets/semiconcraft/items/silicon_crystal.json
 d72fa653e1711d6cac4678b4e8d9b3628de4d5ce assets/semiconcraft/items/silicon_dust.json
@@ -19,6 +21,8 @@ be6b4d8382994e024e91413ce7824ad455a35556 assets/semiconcraft/items/wafer_crude_e
 399ea32ca79e97ac9e881117becdc6ca4d067ea4 assets/semiconcraft/items/wafer_crude_processed.json
 26ffe8d223d8fd2b32914aee928729d7e23602e4 assets/semiconcraft/models/block/crystal_block.json
 3bcda39c56c26ceb8efc6e6a3a1f0bb205e1da4b assets/semiconcraft/models/block/crystal_ore.json
+952ca0a3f99e9859f06b53b12de173443b323c36 assets/semiconcraft/models/item/die_basic.json
+3f6f7c6c1e5ffd8f011904a7e2a10f1474e465ef assets/semiconcraft/models/item/ic_basic.json
 3ed990c1b49e514b967548c6f4a6d1be99979e20 assets/semiconcraft/models/item/silicon_boule.json
 319be12a421c27f6ccd80c137ca8f9974abb79cb assets/semiconcraft/models/item/silicon_crystal.json
 50adb5ce890cee80dbff6a1d5dbfcf112218c9e2 assets/semiconcraft/models/item/silicon_dust.json
