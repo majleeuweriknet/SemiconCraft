@@ -4,10 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5f7b501b-7bb3-43f0-b906-fba785b532ed" name="Changes" comment="added item - wafer saw (simple, no durability, couldnt get it to work)">
+    <list default="true" id="5f7b501b-7bb3-43f0-b906-fba785b532ed" name="Changes" comment="implemented recipes&#10;- processed wafers -&gt; crude die&#10;- crude boule -&gt; dirty crude wafers">
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/majleeuwerik/semiconcraft/event/SCEvents.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/generated/resources/.cache/e5bca830d6745a152ebd322c3426bd142ff1712b" beforeDir="false" afterPath="$PROJECT_DIR$/src/generated/resources/.cache/e5bca830d6745a152ebd322c3426bd142ff1712b" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/majleeuwerik/semiconcraft/creativemodetab/SCCreativeModeTabs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/majleeuwerik/semiconcraft/creativemodetab/SCCreativeModeTabs.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/net/majleeuwerik/semiconcraft/datagen/SCRecipeProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/majleeuwerik/semiconcraft/datagen/SCRecipeProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/majleeuwerik/semiconcraft/item/SCItems.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/majleeuwerik/semiconcraft/item/SCItems.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/majleeuwerik/semiconcraft/item/custom/WaferSawItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/majleeuwerik/semiconcraft/item/custom/WaferSawItem.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -362,7 +365,15 @@
       <option name="project" value="LOCAL" />
       <updated>1778849607954</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="implemented recipes&#10;- processed wafers -&gt; crude die&#10;- crude boule -&gt; dirty crude wafers">
+      <option name="closed" value="true" />
+      <created>1778850814129</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1778850814129</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -405,6 +416,7 @@
     <MESSAGE value="Added Basic Die &amp; Basic IC items" />
     <MESSAGE value="added recipe - smelting - exposed crude wafer -&gt; developed crude wafer" />
     <MESSAGE value="added item - wafer saw (simple, no durability, couldnt get it to work)" />
-    <option name="LAST_COMMIT_MESSAGE" value="added item - wafer saw (simple, no durability, couldnt get it to work)" />
+    <MESSAGE value="implemented recipes&#10;- processed wafers -&gt; crude die&#10;- crude boule -&gt; dirty crude wafers" />
+    <option name="LAST_COMMIT_MESSAGE" value="implemented recipes&#10;- processed wafers -&gt; crude die&#10;- crude boule -&gt; dirty crude wafers" />
   </component>
 </project>

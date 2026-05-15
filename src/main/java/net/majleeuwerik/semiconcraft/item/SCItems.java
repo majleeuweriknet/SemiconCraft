@@ -1,7 +1,11 @@
 package net.majleeuwerik.semiconcraft.item;
 
 import net.majleeuwerik.semiconcraft.SemiconCraft;
+//import net.majleeuwerik.semiconcraft.item.custom.WaferSawItem;
+import net.minecraft.resources.Identifier;
+import net.minecraft.resources.ResourceKey;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.Items;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredHolder;
 import net.neoforged.neoforge.registries.DeferredItem;
@@ -37,12 +41,6 @@ public class SCItems {
 
     // Tools
     public static final DeferredItem<Item> WAFER_SAW = ITEMS.registerSimpleItem("wafer_saw");
-    /*
-    public static final DeferredItem<Item> WAFER_SAW =
-            ITEMS.register("wafer_saw",
-                    () -> new WaferSawItem(new Item.Properties().durability(128).setId(new ResourceLocation(SemiconCraft.MODID, "wafer_saw"))
-            );
-    */
 
 
 

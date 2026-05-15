@@ -76,7 +76,6 @@ public class SCRecipeProvider extends RecipeProvider {
                 .unlockedBy(getHasName(SCItems.WAFER_CRUDE_PROCESSED.get()), has(SCItems.WAFER_CRUDE_PROCESSED))
                 .group("silicon")
                 .save(output);
-
         //cut(RecipeCategory.MISC, SCItems.DIE_BASIC.get(), SCItems.WAFER_CRUDE_PROCESSED.get());
         //stonecutterResultFromBase(RecipeCategory.MISC, SCItems.DIE_BASIC.get(), SCItems.WAFER_CRUDE_PROCESSED.get(), 9);
 
