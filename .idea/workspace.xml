@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5f7b501b-7bb3-43f0-b906-fba785b532ed" name="Changes" comment="Implemented return wafer saw after crafting.">
+    <list default="true" id="5f7b501b-7bb3-43f0-b906-fba785b532ed" name="Changes" comment="Implemented wafer saw durability">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/net/majleeuwerik/semiconcraft/event/SCEvents.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/majleeuwerik/semiconcraft/event/SCEvents.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/majleeuwerik/semiconcraft/item/SCItems.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/majleeuwerik/semiconcraft/item/SCItems.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/majleeuwerik/semiconcraft/item/custom/WaferSawItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/majleeuwerik/semiconcraft/item/custom/WaferSawItem.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -387,7 +385,15 @@
       <option name="project" value="LOCAL" />
       <updated>1778869599039</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Implemented wafer saw durability">
+      <option name="closed" value="true" />
+      <created>1778871493905</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1778871493905</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -408,7 +414,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="NeoForge setup + run tools" />
     <MESSAGE value="Set-up .gitignore" />
     <MESSAGE value="Set-up NeoForge template and build tools" />
     <MESSAGE value="Updated gitignore" />
@@ -433,6 +438,7 @@
     <MESSAGE value="implemented recipes&#10;- processed wafers -&gt; crude die&#10;- crude boule -&gt; dirty crude wafers" />
     <MESSAGE value="Attempted adding wafer_saw keep_on_craft" />
     <MESSAGE value="Implemented return wafer saw after crafting." />
-    <option name="LAST_COMMIT_MESSAGE" value="Implemented return wafer saw after crafting." />
+    <MESSAGE value="Implemented wafer saw durability" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implemented wafer saw durability" />
   </component>
 </project>
