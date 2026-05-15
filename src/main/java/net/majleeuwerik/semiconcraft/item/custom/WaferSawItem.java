@@ -7,9 +7,4 @@ public class WaferSawItem extends Item {
     public WaferSawItem(Properties properties) {
         super(properties);
     }
-
-    public ItemStack getCraftingRemainder(ItemStack stack) {
-        return stack.copy();
-    }
-
 }

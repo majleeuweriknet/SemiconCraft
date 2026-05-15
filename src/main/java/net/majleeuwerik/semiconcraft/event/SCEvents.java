@@ -19,11 +19,27 @@ public class SCEvents {
             ItemStack stack = container.getItem(i);
 
             // Return saw to inventory after crafting. Not neatest but works.
+            /*
             if (stack.is(SCItems.WAFER_SAW.get())) {
                 ItemStack returnedSaw = stack.copy();
                 returnedSaw.setCount(1);
                 event.getEntity().addItem(returnedSaw);
 
+            }*/
+
+            // Take 1 damage to saw, and return to inventory
+            if (stack.is(SCItems.WAFER_SAW.get())) {
+
+                ItemStack returnedSaw = stack.copy();
+                returnedSaw.setCount(1);
+
+                returnedSaw.setDamageValue(
+                        returnedSaw.getDamageValue() + 1
+                );
+
+                if (returnedSaw.getDamageValue() < returnedSaw.getMaxDamage()) {
+                    event.getEntity().addItem(returnedSaw);
+                }
             }
         }
     }

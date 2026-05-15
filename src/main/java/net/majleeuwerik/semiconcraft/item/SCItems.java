@@ -2,6 +2,7 @@ package net.majleeuwerik.semiconcraft.item;
 
 import net.majleeuwerik.semiconcraft.SemiconCraft;
 //import net.majleeuwerik.semiconcraft.item.custom.WaferSawItem;
+import net.majleeuwerik.semiconcraft.item.custom.WaferSawItem;
 import net.minecraft.resources.Identifier;
 import net.minecraft.resources.ResourceKey;
 import net.minecraft.world.item.Item;
@@ -40,8 +41,9 @@ public class SCItems {
 
 
     // Tools
-    public static final DeferredItem<Item> WAFER_SAW = ITEMS.registerSimpleItem("wafer_saw");
-
+    //public static final DeferredItem<Item> WAFER_SAW = ITEMS.registerSimpleItem("wafer_saw");
+    public static final DeferredItem<Item> WAFER_SAW = ITEMS.registerItem("wafer_saw",
+            properties -> new WaferSawItem(properties.durability(32)));
 
 
     public static void register(IEventBus eventBus) {
