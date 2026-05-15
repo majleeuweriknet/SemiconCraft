@@ -29,6 +29,8 @@
   "item.semiconcraft.die_basic" : "Basic Die",
   "item.semiconcraft.ic_basic": "Basic Integrated Circuit",
 
+  "item.semiconcraft.wafer_saw" : "Wafer Saw",
+
   "creativetab.semiconcraft.semiconcraft_blocks": "SemiconCraft Blocks",
   "creativetab.semiconcraft.semiconcraft_items": "SemiconCraft Items",
   "creativetab.semiconcraft.semiconcraft_wafers": "SemiconCraft Wafers"

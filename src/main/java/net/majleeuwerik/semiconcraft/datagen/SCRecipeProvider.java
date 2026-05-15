@@ -56,15 +56,18 @@ public class SCRecipeProvider extends RecipeProvider {
                 .group("silicon")
                 .save(output);
 
-        List<ItemLike> WAFER_SMELTABLES = List.of(SCItems.WAFER_CRUDE_EXPOSED);
+
 
         // Exposed Crude Wafer --> Developed Crude Wafer
+        List<ItemLike> WAFER_SMELTABLES = List.of(SCItems.WAFER_CRUDE_EXPOSED);
         oreSmelting(WAFER_SMELTABLES, RecipeCategory.MISC, CookingBookCategory.MISC, SCItems.WAFER_CRUDE_DEVELOPED.get(), 0.25f, 200, "wafer");
 
 
         // Processed Wafer -> Basic Dies
         //cut(RecipeCategory.MISC, SCItems.DIE_BASIC.get(), SCItems.WAFER_CRUDE_PROCESSED.get());
         //stonecutterResultFromBase(RecipeCategory.MISC, SCItems.DIE_BASIC.get(), SCItems.WAFER_CRUDE_PROCESSED.get(), 9);
+
+        // Cut Boule into wafers
 
 
             /*

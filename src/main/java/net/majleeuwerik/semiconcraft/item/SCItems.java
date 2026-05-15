@@ -3,8 +3,11 @@ package net.majleeuwerik.semiconcraft.item;
 import net.majleeuwerik.semiconcraft.SemiconCraft;
 import net.minecraft.world.item.Item;
 import net.neoforged.bus.api.IEventBus;
+import net.neoforged.neoforge.registries.DeferredHolder;
 import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredRegister;
+
+import java.util.function.Supplier;
 
 public class SCItems {
     public static final DeferredRegister.Items ITEMS = DeferredRegister.createItems(SemiconCraft.MODID);
@@ -30,6 +33,18 @@ public class SCItems {
     // ICs and Dies
     public static final DeferredItem<Item> DIE_BASIC = ITEMS.registerSimpleItem("die_basic");
     public static final DeferredItem<Item> IC_BASIC = ITEMS.registerSimpleItem("ic_basic");
+
+
+    // Tools
+    public static final DeferredItem<Item> WAFER_SAW = ITEMS.registerSimpleItem("wafer_saw");
+    /*
+    public static final DeferredItem<Item> WAFER_SAW =
+            ITEMS.register("wafer_saw",
+                    () -> new WaferSawItem(new Item.Properties().durability(128).setId(new ResourceLocation(SemiconCraft.MODID, "wafer_saw"))
+            );
+    */
+
+
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

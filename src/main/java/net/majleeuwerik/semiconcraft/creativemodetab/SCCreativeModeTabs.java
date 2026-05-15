@@ -56,6 +56,8 @@ public class SCCreativeModeTabs {
 
                         output.accept(SCItems.DIE_BASIC);
                         output.accept(SCItems.IC_BASIC);
+
+                        output.accept(SCItems.WAFER_SAW);
                     }).build());
 
 
