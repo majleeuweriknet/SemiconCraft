@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "semiconcraft:wafer_crude_dirty"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_wafer_saw": {
+      "conditions": {
+        "items": [
+          {
+            "items": "semiconcraft:wafer_saw"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_wafer_saw"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "semiconcraft:wafer_crude_dirty"
+    ]
+  }
+}

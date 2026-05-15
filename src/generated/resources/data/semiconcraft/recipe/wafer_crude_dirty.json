@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "silicon",
+  "ingredients": [
+    "semiconcraft:silicon_boule",
+    "semiconcraft:wafer_saw"
+  ],
+  "result": {
+    "count": 8,
+    "id": "semiconcraft:wafer_crude_dirty"
+  }
+}

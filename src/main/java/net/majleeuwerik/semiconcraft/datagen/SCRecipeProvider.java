@@ -56,7 +56,13 @@ public class SCRecipeProvider extends RecipeProvider {
                 .group("silicon")
                 .save(output);
 
-
+        // Crude Boule --> Dirty Crude Wafer
+        shapeless(RecipeCategory.MISC, SCItems.WAFER_CRUDE_DIRTY.get(), 8)
+                .requires(SCItems.SILICON_BOULE)
+                .requires(SCItems.WAFER_SAW)
+                .unlockedBy(getHasName(SCItems.WAFER_SAW.get()), has(SCItems.WAFER_SAW))
+                .group("silicon")
+                .save(output);
 
         // Exposed Crude Wafer --> Developed Crude Wafer
         List<ItemLike> WAFER_SMELTABLES = List.of(SCItems.WAFER_CRUDE_EXPOSED);
@@ -64,6 +70,13 @@ public class SCRecipeProvider extends RecipeProvider {
 
 
         // Processed Wafer -> Basic Dies
+        shapeless(RecipeCategory.MISC, SCItems.DIE_BASIC.get(), 8)
+                .requires(SCItems.WAFER_CRUDE_PROCESSED)
+                .requires(SCItems.WAFER_SAW)
+                .unlockedBy(getHasName(SCItems.WAFER_CRUDE_PROCESSED.get()), has(SCItems.WAFER_CRUDE_PROCESSED))
+                .group("silicon")
+                .save(output);
+
         //cut(RecipeCategory.MISC, SCItems.DIE_BASIC.get(), SCItems.WAFER_CRUDE_PROCESSED.get());
         //stonecutterResultFromBase(RecipeCategory.MISC, SCItems.DIE_BASIC.get(), SCItems.WAFER_CRUDE_PROCESSED.get(), 9);
 

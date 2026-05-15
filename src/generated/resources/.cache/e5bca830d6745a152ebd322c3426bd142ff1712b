@@ -1,7 +1,11 @@
-// 26.1	2026-05-14T12:42:22.820077	TutorialMod Recipes
+// 26.1	2026-05-15T15:11:33.188633	TutorialMod Recipes
 05c067e469477ebf5b581636533e07e96d36d19c data/semiconcraft/advancement/recipes/building_blocks/crystal_block.json
+1da615c19c1312b53b458ebfbd42caf2ee31d27a data/semiconcraft/advancement/recipes/misc/die_basic.json
 d08f5a3b34fcb54f53cd0280cfcc2bc130e3a0d7 data/semiconcraft/advancement/recipes/misc/silicon_crystal.json
 180ff4a4fca8e59b0678bee2a9f15ff8e5505292 data/semiconcraft/advancement/recipes/misc/wafer_crude_developed_from_smelting_wafer_crude_exposed.json
+08f9f96563a3b63af5332a0975c3215b1115bf1e data/semiconcraft/advancement/recipes/misc/wafer_crude_dirty.json
 e73dd45a12728d87d8b18eb5c50a505314c2ab81 data/semiconcraft/recipe/crystal_block.json
+4fea6ba81c3459aa06f9510e27dba185ee4f10d8 data/semiconcraft/recipe/die_basic.json
 beba87e9d77421ae37e6a9524f87de412107d110 data/semiconcraft/recipe/silicon_crystal.json
 ddd0cae60977874b20e35dadb1c15491e3f5eb50 data/semiconcraft/recipe/wafer_crude_developed_from_smelting_wafer_crude_exposed.json
+3f794cd4cdb3c4f1606e7d0901327eb0307f514d data/semiconcraft/recipe/wafer_crude_dirty.json
