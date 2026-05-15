@@ -13,27 +13,17 @@ import net.neoforged.neoforge.event.entity.player.PlayerEvent;
 public class SCEvents {
     @SubscribeEvent
     public static void onItemCrafted(PlayerEvent.ItemCraftedEvent event) {
-        // DOESNT WORK./
+
         CraftingContainer container = (CraftingContainer) event.getInventory();
-
         for (int i = 0; i < container.getContainerSize(); i++) {
-
             ItemStack stack = container.getItem(i);
 
+            // Return saw to inventory after crafting. Not neatest but works.
             if (stack.is(SCItems.WAFER_SAW.get())) {
+                ItemStack returnedSaw = stack.copy();
+                returnedSaw.setCount(1);
+                event.getEntity().addItem(returnedSaw);
 
-                if (event.getEntity().level() instanceof ServerLevel serverLevel) {
-
-                    stack.hurtAndBreak(
-                            1,
-                            serverLevel,
-                            event.getEntity(),
-                            item -> {
-                            }
-                    );
-                }
-
-                container.setItem(i, stack);
             }
         }
     }
