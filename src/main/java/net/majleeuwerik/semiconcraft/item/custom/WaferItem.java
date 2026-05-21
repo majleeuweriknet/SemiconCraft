@@ -43,6 +43,8 @@ public class WaferItem extends Item {
     @Override
     public Component getName(ItemStack stack) {
         int layer = SCCrudeWaferDataHelper.getLayer(stack);
+
+        // if max layer is reached make the layer progress ([4/4]) green, else make it gray
         if (layer == SCCrudeWaferDataHelper.maxLayer()) {
             return Component.translatable(this.getDescriptionId())
                     .append(Component.literal(" [" + layer + "/" + SCCrudeWaferDataHelper.maxLayer()+ "]")
@@ -65,7 +67,7 @@ public class WaferItem extends Item {
     }
 
  */
-
+    // Manually set color of bar (non-dynamic for now, future exciting colors?)
     @Override
     public int getBarColor(ItemStack stack) {
         return 0x55FFAA;
