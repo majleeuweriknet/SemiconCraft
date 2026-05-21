@@ -30,4 +30,8 @@ public class SCCrudeWaferDataHelper {
     public static void clearLayer(ItemStack stack) {
         stack.remove(SCDataComponents.LAYER.get());
     }
+
+    public static int maxLayer() {
+        return 4;
+    }
 }

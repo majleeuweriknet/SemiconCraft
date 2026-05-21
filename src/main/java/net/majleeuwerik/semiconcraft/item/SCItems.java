@@ -28,6 +28,8 @@ public class SCItems {
     // Wafers
     public static final DeferredItem<Item> WAFER_CRUDE_DIRTY = ITEMS.registerSimpleItem("wafer_crude_dirty");
     public static final DeferredItem<Item> WAFER_CRUDE_CLEAN = ITEMS.registerSimpleItem("wafer_crude_clean");
+
+    // Earlier item registration ways
     //public static final DeferredItem<Item> WAFER_CRUDE_DEPOSITED = ITEMS.registerSimpleItem("wafer_crude_deposited");
     //public static final DeferredItem<Item> WAFER_CRUDE_DEPOSITED = ITEMS.registerItem("wafer_crude_deposited",
     //        properties ->  new WaferItem(new Item.Properties()));

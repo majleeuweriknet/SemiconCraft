@@ -1,6 +1,8 @@
 package net.majleeuwerik.semiconcraft.item.custom;
 
+import net.majleeuwerik.semiconcraft.SCDataComponents;
 import net.majleeuwerik.semiconcraft.util.SCCrudeWaferDataHelper;
+import net.minecraft.ChatFormatting;
 import net.minecraft.client.Minecraft;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.Item;
@@ -22,7 +24,7 @@ public class WaferItem extends Item {
         int layer = SCCrudeWaferDataHelper.getLayer(stack);
 
         //tooltip.add(Component.literal("Layer: " + layer + "/4"));
-        builder.accept(Component.literal("Layer: " + layer + "/4"));
+        builder.accept(Component.literal("Layer: " + layer + "/" + SCCrudeWaferDataHelper.maxLayer()));
         super.appendHoverText(stack, context, tooltip, builder, flag);
     }
 
@@ -34,8 +36,23 @@ public class WaferItem extends Item {
     @Override
     public int getBarWidth(ItemStack stack) {
         int layer = SCCrudeWaferDataHelper.getLayer(stack);
-        int maxLayer = 4;
+        int maxLayer = SCCrudeWaferDataHelper.maxLayer();
         return Math.round(13.0F * layer / maxLayer);
+    }
+
+    @Override
+    public Component getName(ItemStack stack) {
+        int layer = SCCrudeWaferDataHelper.getLayer(stack);
+        if (layer == SCCrudeWaferDataHelper.maxLayer()) {
+            return Component.translatable(this.getDescriptionId())
+                    .append(Component.literal(" [" + layer + "/" + SCCrudeWaferDataHelper.maxLayer()+ "]")
+                            .withStyle(ChatFormatting.GREEN));
+        }
+        else {
+            return Component.translatable(this.getDescriptionId())
+                    .append(Component.literal(" [" + layer + "/" + SCCrudeWaferDataHelper.maxLayer()+ "]")
+                            .withStyle(ChatFormatting.GRAY));
+        }
     }
 
 /*
