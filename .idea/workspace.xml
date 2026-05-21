@@ -4,41 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5f7b501b-7bb3-43f0-b906-fba785b532ed" name="Changes" comment="Implemented wafer saw durability">
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/majleeuwerik/semiconcraft/block/custom/CrystallizerBlock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/majleeuwerik/semiconcraft/block/entity/SCBlockEntities.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/majleeuwerik/semiconcraft/block/entity/custom/BouleFurnaceBlockEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/majleeuwerik/semiconcraft/block/entity/custom/CrystallizerBlockEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/majleeuwerik/semiconcraft/menu/SCMenuTypes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/majleeuwerik/semiconcraft/menu/custom/CrystallizerMenu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/majleeuwerik/semiconcraft/menu/custom/CrystallizerScreen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/majleeuwerik/semiconcraft/recipe/SCRecipes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/majleeuwerik/semiconcraft/recipe/custom/CrystallizerRecipe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/majleeuwerik/semiconcraft/recipe/custom/CrystallizerRecipeInput.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/majleeuwerik/semiconcraft/util/MouseUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/semiconcraft/textures/block/crystallizer_bottom.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/semiconcraft/textures/block/crystallizer_front.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/semiconcraft/textures/block/crystallizer_front_on.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/semiconcraft/textures/block/crystallizer_side.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/semiconcraft/textures/block/crystallizer_top.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/semiconcraft/textures/gui/crystallizer/arrow_progress.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/semiconcraft/textures/gui/crystallizer/crystallizer_gui.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/semiconcraft/recipe/silicon_boule_from_crystallizing.json" afterDir="false" />
+    <list default="true" id="5f7b501b-7bb3-43f0-b906-fba785b532ed" name="Changes" comment="Updated mod_version to 0.0.2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/generated/resources/.cache/59eb3dbb5f86130e09b3c62d89b9525ee01cf52d" beforeDir="false" afterPath="$PROJECT_DIR$/src/generated/resources/.cache/59eb3dbb5f86130e09b3c62d89b9525ee01cf52d" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/generated/resources/.cache/633cdbe431757ffe9258a0cbd8d9045692da8418" beforeDir="false" afterPath="$PROJECT_DIR$/src/generated/resources/.cache/633cdbe431757ffe9258a0cbd8d9045692da8418" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/generated/resources/.cache/78af0cca598bbe5414949a46a027326e3f1f44ca" beforeDir="false" afterPath="$PROJECT_DIR$/src/generated/resources/.cache/78af0cca598bbe5414949a46a027326e3f1f44ca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/generated/resources/.cache/e5bca830d6745a152ebd322c3426bd142ff1712b" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/generated/resources/data/minecraft/tags/block/mineable/pickaxe.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/generated/resources/data/minecraft/tags/block/mineable/pickaxe.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/majleeuwerik/semiconcraft/SCDataGen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/majleeuwerik/semiconcraft/SCDataGen.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/net/majleeuwerik/semiconcraft/SemiconCraft.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/majleeuwerik/semiconcraft/SemiconCraft.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/majleeuwerik/semiconcraft/SemiconCraftClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/majleeuwerik/semiconcraft/SemiconCraftClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/majleeuwerik/semiconcraft/block/SCBlocks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/majleeuwerik/semiconcraft/block/SCBlocks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/majleeuwerik/semiconcraft/creativemodetab/SCCreativeModeTabs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/majleeuwerik/semiconcraft/creativemodetab/SCCreativeModeTabs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/majleeuwerik/semiconcraft/datagen/SCBlockLootTableProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/majleeuwerik/semiconcraft/datagen/SCBlockLootTableProvider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/majleeuwerik/semiconcraft/datagen/SCBlockTagsProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/majleeuwerik/semiconcraft/datagen/SCBlockTagsProvider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/majleeuwerik/semiconcraft/datagen/SCModelProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/majleeuwerik/semiconcraft/datagen/SCModelProvider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/majleeuwerik/semiconcraft/datagen/SCRecipeProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/majleeuwerik/semiconcraft/datagen/SCRecipeProvider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/semiconcraft/lang/en_us.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/semiconcraft/lang/en_us.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -443,7 +412,23 @@
       <option name="project" value="LOCAL" />
       <updated>1778871673631</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Added Crystallizer based on Kaupenjoe's tutorial. Now crystallizes silicon_dust into silicon_boule">
+      <option name="closed" value="true" />
+      <created>1779358431111</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1779358431111</updated>
+    </task>
+    <task id="LOCAL-00029" summary="Updated mod_version to 0.0.2">
+      <option name="closed" value="true" />
+      <created>1779358615165</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1779358615165</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -464,8 +449,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Set-up .gitignore" />
-    <MESSAGE value="Set-up NeoForge template and build tools" />
     <MESSAGE value="Updated gitignore" />
     <MESSAGE value="Change logging" />
     <MESSAGE value="Import from previous work on lithocraft. Continuing from there." />
@@ -489,6 +472,8 @@
     <MESSAGE value="Attempted adding wafer_saw keep_on_craft" />
     <MESSAGE value="Implemented return wafer saw after crafting." />
     <MESSAGE value="Implemented wafer saw durability" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implemented wafer saw durability" />
+    <MESSAGE value="Added Crystallizer based on Kaupenjoe's tutorial. Now crystallizes silicon_dust into silicon_boule" />
+    <MESSAGE value="Updated mod_version to 0.0.2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated mod_version to 0.0.2" />
   </component>
 </project>
