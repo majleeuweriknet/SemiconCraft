@@ -20,7 +20,9 @@ public class SCBlockTagsProvider  extends BlockTagsProvider {
     protected void addTags(HolderLookup.Provider provider) {
         tag(BlockTags.MINEABLE_WITH_PICKAXE)
                 .add(SCBlocks.CRYSTAL_BLOCK.get())
-                .add(SCBlocks.CRYSTAL_ORE.get());
+                .add(SCBlocks.CRYSTAL_ORE.get())
+                .add(SCBlocks.CRYSTALLIZER.get());
+
 
 
         // Read into block tags later

@@ -1,6 +1,7 @@
 package net.majleeuwerik.semiconcraft.block;
 
 import net.majleeuwerik.semiconcraft.SemiconCraft;
+import net.majleeuwerik.semiconcraft.block.custom.CrystallizerBlock;
 import net.majleeuwerik.semiconcraft.item.SCItems;
 import net.minecraft.network.chat.Component;
 import net.minecraft.util.valueproviders.UniformInt;
@@ -37,6 +38,12 @@ public class SCBlocks {
     private static <T extends Block> void registerBlockItem(String name, DeferredBlock<T> block, Component[] components) {
         SCItems.ITEMS.registerItem(name, properties -> new BlockItem(block.get(), properties.useBlockDescriptionPrefix()));
     }
+
+
+    // Crystallizer Test
+    public static final DeferredBlock<Block> CRYSTALLIZER = registerBlock("crystallizer",
+            properties -> new CrystallizerBlock(properties.strength(2f).requiresCorrectToolForDrops()));
+
 
     public static void register(IEventBus eventBus) {
         BLOCKS.register(eventBus);

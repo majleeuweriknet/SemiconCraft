@@ -1,0 +1,7 @@
+{
+  "type": "semiconcraft:crystallizing",
+  "ingredient": "semiconcraft:silicon_dust",
+  "result": {
+    "id": "semiconcraft:silicon_boule"
+  }
+}

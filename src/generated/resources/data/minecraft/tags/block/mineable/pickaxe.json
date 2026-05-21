@@ -1,6 +1,7 @@
 {
   "values": [
     "semiconcraft:crystal_block",
-    "semiconcraft:crystal_ore"
+    "semiconcraft:crystal_ore",
+    "semiconcraft:crystallizer"
   ]
 }

@@ -7,6 +7,7 @@ import net.minecraft.client.data.models.BlockModelGenerators;
 import net.minecraft.client.data.models.ItemModelGenerators;
 import net.minecraft.client.data.models.ModelProvider;
 import net.minecraft.client.data.models.model.ModelTemplates;
+import net.minecraft.client.data.models.model.TexturedModel;
 import net.minecraft.data.PackOutput;
 
 public class SCModelProvider extends ModelProvider {
@@ -43,6 +44,7 @@ public class SCModelProvider extends ModelProvider {
         /* BLOCKS */
         blockModels.createTrivialCube(SCBlocks.CRYSTAL_BLOCK.get());
         blockModels.createTrivialCube(SCBlocks.CRYSTAL_ORE.get());
+        blockModels.createFurnace(SCBlocks.CRYSTALLIZER.get(), TexturedModel.ORIENTABLE);
     }
 }
 

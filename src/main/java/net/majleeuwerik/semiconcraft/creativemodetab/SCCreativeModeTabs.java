@@ -37,6 +37,7 @@ public class SCCreativeModeTabs {
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(SCBlocks.CRYSTAL_ORE);
                         output.accept(SCBlocks.CRYSTAL_BLOCK);
+                        output.accept(SCBlocks.CRYSTALLIZER);
                     }).build());
 
     public static final Supplier<CreativeModeTab> SEMICONCRAFT_WAFERS_TAB = CREATIVE_MODE_TABS.register("semiconcraft_wafers_tab",

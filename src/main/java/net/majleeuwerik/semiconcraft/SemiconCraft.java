@@ -1,8 +1,11 @@
 package net.majleeuwerik.semiconcraft;
 
 import net.majleeuwerik.semiconcraft.block.SCBlocks;
+import net.majleeuwerik.semiconcraft.block.entity.SCBlockEntities;
 import net.majleeuwerik.semiconcraft.creativemodetab.SCCreativeModeTabs;
 import net.majleeuwerik.semiconcraft.item.SCItems;
+import net.majleeuwerik.semiconcraft.menu.SCMenuTypes;
+import net.majleeuwerik.semiconcraft.recipe.SCRecipes;
 import org.slf4j.Logger;
 
 import com.mojang.logging.LogUtils;
@@ -52,6 +55,9 @@ public class SemiconCraft {
 
         SCItems.register(modEventBus);
         SCBlocks.register(modEventBus);
+        SCBlockEntities.register(modEventBus);
+        SCMenuTypes.register(modEventBus);
+        SCRecipes.register(modEventBus);
 
         // Register ourselves for server and other ga   me events we are interested in.
         // Note that this is necessary if and only if we want *this* class (SemiconCraft) to respond directly to events.

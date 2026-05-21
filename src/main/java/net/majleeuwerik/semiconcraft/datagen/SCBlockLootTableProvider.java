@@ -27,6 +27,7 @@ public class SCBlockLootTableProvider extends BlockLootSubProvider {
     @Override
     protected void generate() {
         dropSelf(SCBlocks.CRYSTAL_BLOCK.get());
+        dropSelf(SCBlocks.CRYSTALLIZER.get());
 
         add(SCBlocks.CRYSTAL_ORE.get(),
                 createOreDrop(SCBlocks.CRYSTAL_ORE.get(), SCItems.SILICON_RAW.get()));

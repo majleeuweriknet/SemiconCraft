@@ -35,7 +35,7 @@ public class SCRecipeProvider extends RecipeProvider {
 
         @Override
         public String getName() {
-            return "TutorialMod Recipes";
+            return "SemiconCraft Recipes";
         }
     }
 
@@ -132,4 +132,5 @@ public class SCRecipeProvider extends RecipeProvider {
                     .save(output, SemiconCraft.MODID + ":" + getItemName(result) + fromDesc + "_" + getItemName(itemlike));
         }
     }
+
 }

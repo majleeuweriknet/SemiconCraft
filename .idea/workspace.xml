@@ -5,8 +5,40 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5f7b501b-7bb3-43f0-b906-fba785b532ed" name="Changes" comment="Implemented wafer saw durability">
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/majleeuwerik/semiconcraft/block/custom/CrystallizerBlock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/majleeuwerik/semiconcraft/block/entity/SCBlockEntities.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/majleeuwerik/semiconcraft/block/entity/custom/BouleFurnaceBlockEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/majleeuwerik/semiconcraft/block/entity/custom/CrystallizerBlockEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/majleeuwerik/semiconcraft/menu/SCMenuTypes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/majleeuwerik/semiconcraft/menu/custom/CrystallizerMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/majleeuwerik/semiconcraft/menu/custom/CrystallizerScreen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/majleeuwerik/semiconcraft/recipe/SCRecipes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/majleeuwerik/semiconcraft/recipe/custom/CrystallizerRecipe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/majleeuwerik/semiconcraft/recipe/custom/CrystallizerRecipeInput.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/majleeuwerik/semiconcraft/util/MouseUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/semiconcraft/textures/block/crystallizer_bottom.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/semiconcraft/textures/block/crystallizer_front.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/semiconcraft/textures/block/crystallizer_front_on.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/semiconcraft/textures/block/crystallizer_side.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/semiconcraft/textures/block/crystallizer_top.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/semiconcraft/textures/gui/crystallizer/arrow_progress.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/semiconcraft/textures/gui/crystallizer/crystallizer_gui.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/semiconcraft/recipe/silicon_boule_from_crystallizing.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/majleeuwerik/semiconcraft/event/SCEvents.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/majleeuwerik/semiconcraft/event/SCEvents.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/generated/resources/.cache/59eb3dbb5f86130e09b3c62d89b9525ee01cf52d" beforeDir="false" afterPath="$PROJECT_DIR$/src/generated/resources/.cache/59eb3dbb5f86130e09b3c62d89b9525ee01cf52d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/generated/resources/.cache/633cdbe431757ffe9258a0cbd8d9045692da8418" beforeDir="false" afterPath="$PROJECT_DIR$/src/generated/resources/.cache/633cdbe431757ffe9258a0cbd8d9045692da8418" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/generated/resources/.cache/78af0cca598bbe5414949a46a027326e3f1f44ca" beforeDir="false" afterPath="$PROJECT_DIR$/src/generated/resources/.cache/78af0cca598bbe5414949a46a027326e3f1f44ca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/generated/resources/.cache/e5bca830d6745a152ebd322c3426bd142ff1712b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/generated/resources/data/minecraft/tags/block/mineable/pickaxe.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/generated/resources/data/minecraft/tags/block/mineable/pickaxe.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/majleeuwerik/semiconcraft/SemiconCraft.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/majleeuwerik/semiconcraft/SemiconCraft.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/majleeuwerik/semiconcraft/SemiconCraftClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/majleeuwerik/semiconcraft/SemiconCraftClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/majleeuwerik/semiconcraft/block/SCBlocks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/majleeuwerik/semiconcraft/block/SCBlocks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/majleeuwerik/semiconcraft/creativemodetab/SCCreativeModeTabs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/majleeuwerik/semiconcraft/creativemodetab/SCCreativeModeTabs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/majleeuwerik/semiconcraft/datagen/SCBlockLootTableProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/majleeuwerik/semiconcraft/datagen/SCBlockLootTableProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/majleeuwerik/semiconcraft/datagen/SCBlockTagsProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/majleeuwerik/semiconcraft/datagen/SCBlockTagsProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/majleeuwerik/semiconcraft/datagen/SCModelProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/majleeuwerik/semiconcraft/datagen/SCModelProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/majleeuwerik/semiconcraft/datagen/SCRecipeProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/majleeuwerik/semiconcraft/datagen/SCRecipeProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/semiconcraft/lang/en_us.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/semiconcraft/lang/en_us.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,12 +102,15 @@
     &quot;accountId&quot;: &quot;d1d44e95-d6c9-4c62-aad4-1cc79380c978&quot;
   }
 }</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/main/java/net/majleeuwerik/semiconcraft/block/blockentities/SCBlockEntities.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 2,
-  &quot;fromUser&quot;: false
+  &quot;associatedIndex&quot;: 4,
+  &quot;fromUser&quot;: true
 }</component>
   <component name="ProjectId" id="3DUClZPp4X9F5FmeJADSn9Pjef1" />
   <component name="ProjectLevelVcsManager">
@@ -101,10 +136,17 @@
     "codeWithMe.voiceChat.enabledByDefault": "false",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/marinusleeuwerik/Library/CloudStorage/OneDrive-MKP6/Projects/mc_mods/semiconcraft/semiconcraft-main",
-    "settings.editor.selected.configurable": "configurable.group.editor"
+    "last_opened_file_path": "/Users/marinusleeuwerik/Library/CloudStorage/OneDrive-MKP6/Projects/mc_mods/semiconcraft/semiconcraft-main/src/main/resources/assets/semiconcraft/textures/block",
+    "settings.editor.selected.configurable": "preferences.general"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/assets/semiconcraft/textures/block" />
+      <recent name="$PROJECT_DIR$/src/main/resources/assets/semiconcraft/textures" />
+      <recent name="$PROJECT_DIR$/src/main/resources/data/semiconcraft/recipe" />
+    </key>
+  </component>
   <component name="RunManager" selected="Application.Client">
     <configuration name="Client" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="net.neoforged.devlaunch.Main" />
@@ -393,7 +435,15 @@
       <option name="project" value="LOCAL" />
       <updated>1778871493905</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Implemented wafer saw durability">
+      <option name="closed" value="true" />
+      <created>1778871673631</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1778871673631</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

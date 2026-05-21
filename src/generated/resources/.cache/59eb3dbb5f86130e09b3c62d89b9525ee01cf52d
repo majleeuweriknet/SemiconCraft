@@ -1,3 +1,4 @@
-// 26.1	2026-05-12T19:17:42.919468	Loot Tables
+// 26.1	2026-05-21T11:45:30.068639	Loot Tables
 2cb36ae064debf364e2f4456f940ebe727e6659c data/semiconcraft/loot_table/blocks/crystal_block.json
 882d1775d16fc192e2b33d8a2ed907abd2b2392a data/semiconcraft/loot_table/blocks/crystal_ore.json
+232eb198a4707d585e41235f75b5f5b75747d0db data/semiconcraft/loot_table/blocks/crystallizer.json
