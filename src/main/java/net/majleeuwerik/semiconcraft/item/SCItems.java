@@ -2,6 +2,7 @@ package net.majleeuwerik.semiconcraft.item;
 
 import net.majleeuwerik.semiconcraft.SemiconCraft;
 //import net.majleeuwerik.semiconcraft.item.custom.WaferSawItem;
+import net.majleeuwerik.semiconcraft.item.custom.WaferItem;
 import net.majleeuwerik.semiconcraft.item.custom.WaferSawItem;
 import net.minecraft.resources.Identifier;
 import net.minecraft.resources.ResourceKey;
@@ -27,13 +28,24 @@ public class SCItems {
     // Wafers
     public static final DeferredItem<Item> WAFER_CRUDE_DIRTY = ITEMS.registerSimpleItem("wafer_crude_dirty");
     public static final DeferredItem<Item> WAFER_CRUDE_CLEAN = ITEMS.registerSimpleItem("wafer_crude_clean");
-    public static final DeferredItem<Item> WAFER_CRUDE_DEPOSITED = ITEMS.registerSimpleItem("wafer_crude_deposited");
-    public static final DeferredItem<Item> WAFER_CRUDE_COATED = ITEMS.registerSimpleItem("wafer_crude_coated");
-    public static final DeferredItem<Item> WAFER_CRUDE_EXPOSED = ITEMS.registerSimpleItem("wafer_crude_exposed");
-    public static final DeferredItem<Item> WAFER_CRUDE_DEVELOPED = ITEMS.registerSimpleItem("wafer_crude_developed");
-    public static final DeferredItem<Item> WAFER_CRUDE_ETCHED = ITEMS.registerSimpleItem("wafer_crude_etched");
-    public static final DeferredItem<Item> WAFER_CRUDE_ENRICHED = ITEMS.registerSimpleItem("wafer_crude_enriched");
-    public static final DeferredItem<Item> WAFER_CRUDE_PROCESSED = ITEMS.registerSimpleItem("wafer_crude_processed");
+    //public static final DeferredItem<Item> WAFER_CRUDE_DEPOSITED = ITEMS.registerSimpleItem("wafer_crude_deposited");
+    //public static final DeferredItem<Item> WAFER_CRUDE_DEPOSITED = ITEMS.registerItem("wafer_crude_deposited",
+    //        properties ->  new WaferItem(new Item.Properties()));
+
+    public static final DeferredItem<Item> WAFER_CRUDE_DEPOSITED =
+            ITEMS.registerItem("wafer_crude_deposited", properties -> new WaferItem(properties));
+    public static final DeferredItem<Item> WAFER_CRUDE_COATED =
+            ITEMS.registerItem("wafer_crude_coated", properties -> new WaferItem(properties));
+    public static final DeferredItem<Item> WAFER_CRUDE_EXPOSED =
+            ITEMS.registerItem("wafer_crude_exposed", properties -> new WaferItem(properties));
+    public static final DeferredItem<Item> WAFER_CRUDE_DEVELOPED =
+            ITEMS.registerItem("wafer_crude_developed", properties -> new WaferItem(properties));
+    public static final DeferredItem<Item> WAFER_CRUDE_ETCHED =
+            ITEMS.registerItem("wafer_crude_etched", properties -> new WaferItem(properties));
+    public static final DeferredItem<Item> WAFER_CRUDE_ENRICHED =
+            ITEMS.registerItem("wafer_crude_enriched", properties -> new WaferItem(properties));
+    public static final DeferredItem<Item> WAFER_CRUDE_PROCESSED =
+            ITEMS.registerSimpleItem("wafer_crude_processed");
 
     // ICs and Dies
     public static final DeferredItem<Item> DIE_BASIC = ITEMS.registerSimpleItem("die_basic");

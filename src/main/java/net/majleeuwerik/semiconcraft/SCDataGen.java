@@ -19,14 +19,13 @@ public class SCDataGen {
         PackOutput packOutput = generator.getPackOutput();
         var lookupProvider = event.getLookupProvider();
 
+        // Get providers and generate JSON files
         generator.addProvider(true, new SCModelProvider(packOutput));
         generator.addProvider(true, new SCBlockTagsProvider(packOutput, lookupProvider));
         generator.addProvider(true, new LootTableProvider(packOutput, Collections.emptySet(),
                 List.of(new LootTableProvider.SubProviderEntry(SCBlockLootTableProvider::new, LootContextParamSets.BLOCK)), lookupProvider));
 
         generator.addProvider(true, new SCRecipeProvider.Runner(packOutput, lookupProvider));
-        //generator.addProvider(true, new ModDataMapProvider(packOutput, lookupProvider));
-        //generator.addProvider(true, new ModItemTagsProvider(packOutput, lookupProvider));
     }
 }
 
