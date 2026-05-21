@@ -28,9 +28,10 @@ public class SemiconCraftClient {
     @SubscribeEvent
     static void onClientSetup(FMLClientSetupEvent event) {
         // Some client setup code
-        SemiconCraft.LOGGER.info("SemiconCraft Client Initialization");
+        SemiconCraft.LOGGER.info("SemiconCraft: Client Initialization");
     }
 
+    // Register Menu Screens
     @SubscribeEvent
     public static void registerScreens(RegisterMenuScreensEvent event) {
         event.register(SCMenuTypes.CRYSTALLIZER_MENU.get(), CrystallizerScreen::new);

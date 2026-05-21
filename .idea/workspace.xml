@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5f7b501b-7bb3-43f0-b906-fba785b532ed" name="Changes" comment="Updated mod_version to 0.0.2">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/majleeuwerik/semiconcraft/SCDataGen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/majleeuwerik/semiconcraft/SCDataGen.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/majleeuwerik/semiconcraft/SemiconCraft.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/majleeuwerik/semiconcraft/SemiconCraft.java" afterDir="false" />
+    <list default="true" id="5f7b501b-7bb3-43f0-b906-fba785b532ed" name="Changes" comment="Sanitize/commented SemiconCraft.java">
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/majleeuwerik/semiconcraft/SemiconCraftClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/majleeuwerik/semiconcraft/SemiconCraftClient.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -428,7 +426,15 @@
       <option name="project" value="LOCAL" />
       <updated>1779358615165</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="Sanitize/commented SemiconCraft.java">
+      <option name="closed" value="true" />
+      <created>1779362260216</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1779362260216</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -449,7 +455,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Updated gitignore" />
     <MESSAGE value="Change logging" />
     <MESSAGE value="Import from previous work on lithocraft. Continuing from there." />
     <MESSAGE value="Fixed block/item registration. Broke textures and something with translation I think" />
@@ -474,6 +479,7 @@
     <MESSAGE value="Implemented wafer saw durability" />
     <MESSAGE value="Added Crystallizer based on Kaupenjoe's tutorial. Now crystallizes silicon_dust into silicon_boule" />
     <MESSAGE value="Updated mod_version to 0.0.2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated mod_version to 0.0.2" />
+    <MESSAGE value="Sanitize/commented SemiconCraft.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="Sanitize/commented SemiconCraft.java" />
   </component>
 </project>
